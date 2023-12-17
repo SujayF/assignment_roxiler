@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Jost&family=K2D&family=Open+Sans&family=Righteous&family=Roboto:wght@300;400&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Jost', sans-serif;
+}
+
+:root {
+  --red: #990303;
+  --lightgray: #b1b0b0;
+  --gray: #71706e;
+  --black:#292323;
+  --white:#ffffff;
+}
+
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  background-color: var(--red);
+  color: var(--white);
+}
+
+.table{
+  background-color: var(--lightgray);
+  color: var(--white);
+}
+
+.stat{
+  background-color: var(--lightgray);
+  color: var(--black);
+  flex-direction: column;
+  width: 40vw;
+  text-align: center;
+  border-left: 2px solid var(--black);
+}
+
+.dropdown{
+  position:sticky;
+  font-size: large;
+  color: var(--black);
+  border-radius: 8px;
+  padding: px 5px 0 5px;
+  background-color:var(--white);
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-color: var(--red);
+}
+
+.search-container input{
+  color: var(--gray);
+  width: 50vw;
+    height: 4px;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px 5px;
+    border: 1px solid;
+    font-size: larger;
+    top: 50px;
+}
+
+.search-container{
+  justify-content: center;
+}
+
+
+.statistics{
+  width: 250px;
+  height: 180px;
+  border-radius: 5px;
+  background-color: var(--white);
+  flex-direction: column;
+  align-items: start;
+  padding: 0 0 0 10px;
+  margin-bottom: 10px;
+  margin-top: 100px;
+
+}
+
+.dyamicTable,td{
+  background-color: var(--lightgray);
+  border: 1px solid var(--gray);
+  border-collapse: collapse;
+}
+
+.dyamicTable{
+
+  height: 600px;
+  overflow-y: auto;
+}
+
+
+.table-container {
+  max-height: 600px; /* Adjust the height according to your needs */
+  overflow-y: auto; /* Add a scrollbar if content overflows */
+}
+
+
+
+
+th{
+  color: var(--red);
+  font-size: larger;
+  background-color: var(--gray);
+  border-top:2px solid var(--lightgray) ;
+}
+
+.tab{
+  background-color: var(--gray);
+  margin-top: 5px;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.tab,p{
+  font-size: large;
+  text-align: center;
+}
+
+.pagination{
+  padding: 0 200px 0 200px;
+  justify-content: space-between;
+}
+
+
+.bar{
+  flex-direction: column;
+  background-color: var(--lightgray);
+  width: 60vw;
+  border-left: 2px solid var(--black);
+}
+
+.single-div{
+  margin-top: 10px;
+  padding-top: 5px;
+  display: flex;
+  justify-content:safe;
+}
