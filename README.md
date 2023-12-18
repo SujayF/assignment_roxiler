@@ -6,6 +6,9 @@
 3) cd ..
 4) cd backend
 5) npm install
+6) cd ..
+7) npm install
+8) npm run dev
 
 # npm run dev
 to run both the backend and frontend environments simultaneously 
