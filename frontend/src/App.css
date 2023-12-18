@@ -23,8 +23,12 @@
 }
 
 .header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: var(--red);
   color: var(--white);
+  padding: 0 20px 0 20px;
 }
 
 .table{
@@ -39,6 +43,7 @@
   width: 40vw;
   text-align: center;
   border-left: 2px solid var(--black);
+  padding-top: 33px;
 }
 
 .dropdown{
@@ -85,7 +90,7 @@
 }
 
 .dyamicTable,td{
-  background-color: var(--lightgray);
+  background-color: var(--white);
   border: 1px solid var(--gray);
   border-collapse: collapse;
 }
@@ -106,9 +111,9 @@
 
 
 th{
-  color: var(--red);
+  color: var(--white);
   font-size: larger;
-  background-color: var(--gray);
+  background-color: var(--black);
   border-top:2px solid var(--lightgray) ;
 }
 
@@ -142,4 +147,23 @@ th{
   padding-top: 5px;
   display: flex;
   justify-content:safe;
+  height: 100vh;
+}
+
+.barchart{
+  background-color: var(--white);
+  border-radius: 10px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.abt:hover{
+ cursor: pointer;
+}
+
+.abt{
+  font-size: large;
+  border: 1px solid var(--white);
+  border-radius: 10px;
+  padding: 5px;
 }

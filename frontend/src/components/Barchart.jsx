@@ -48,7 +48,7 @@ function Barchart() {
         ))}
       </select>
 
-      <BarChart width={600} height={600} data={chartData}>
+      <BarChart  id="anchor" className='barchart' width={600} height={600} data={chartData}>
         <Bar dataKey="count" fill="#990303" />
         <CartesianGrid stroke="#292323" />
         <XAxis dataKey="priceRange" />
