@@ -9,3 +9,5 @@
 
 # npm run dev
 to run both the backend and frontend environments simultaneously 
+
+## Local MongoDB is used to store and fetch data from API
